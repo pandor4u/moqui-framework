@@ -1,0 +1,94 @@
+{
+  "timestamp": "2026-03-04T20:56:49.562473",
+  "summary": {
+    "screens": {
+      "total": 0,
+      "passed": 0,
+      "failed": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "crud": {
+      "total": 6,
+      "passed": 0,
+      "failed": 0
+    },
+    "console_errors": 1
+  },
+  "entities_created": {
+    "party": {
+      "id": "CustJqp",
+      "type": "party"
+    },
+    "product_store": {
+      "id": "POPC_DEFAULT",
+      "type": "product_store"
+    },
+    "facility": {
+      "id": "ZIRET_WH",
+      "type": "facility"
+    },
+    "gl_account": {
+      "id": "110000",
+      "type": "gl_account"
+    },
+    "time_period": {
+      "id": "100003",
+      "type": "time_period"
+    }
+  },
+  "screen_results": [],
+  "crud_results": [
+    {
+      "entity_type": "person",
+      "operation": "create",
+      "status": "error",
+      "entity_id": "",
+      "error": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"text='New Person'\").first\n",
+      "duration_ms": 7013
+    },
+    {
+      "entity_type": "party",
+      "operation": "update",
+      "status": "skip",
+      "entity_id": "",
+      "error": "No update handler for this entity type",
+      "duration_ms": 0
+    },
+    {
+      "entity_type": "product_store",
+      "operation": "update",
+      "status": "skip",
+      "entity_id": "",
+      "error": "No update handler for this entity type",
+      "duration_ms": 0
+    },
+    {
+      "entity_type": "facility",
+      "operation": "update",
+      "status": "skip",
+      "entity_id": "",
+      "error": "No update handler for this entity type",
+      "duration_ms": 0
+    },
+    {
+      "entity_type": "gl_account",
+      "operation": "update",
+      "status": "skip",
+      "entity_id": "",
+      "error": "No update handler for this entity type",
+      "duration_ms": 0
+    },
+    {
+      "entity_type": "time_period",
+      "operation": "update",
+      "status": "skip",
+      "entity_id": "",
+      "error": "No update handler for this entity type",
+      "duration_ms": 0
+    }
+  ],
+  "console_errors": [
+    "Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+  ]
+}
